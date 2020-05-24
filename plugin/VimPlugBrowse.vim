@@ -5,7 +5,7 @@
 " Open plugin repo
 function BrowsePlugin()
     let BASE = "https://github.com/" 
-    exe "!google-chrome" BASE.expand("<cWORD>")
+    exe "!xdg-open" BASE.expand("<cWORD>")
 endfunction
     
 command! PlugBrowse call BrowsePlugin() 
