@@ -10,3 +10,5 @@ Vim global plugin for opening your vim plugin's GitHub page
 :PlugBrowse
 ```
 
+![demo of vim-plug-browse](demo.gif "demo of vim-plug-browse")
+
